@@ -92,7 +92,6 @@ parameter_config_EXTERNAL_OBJECTS =
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: parameter_test/CMakeFiles/parameter_config.dir/build.make
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /opt/ros/melodic/lib/libroscpp.so
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /opt/ros/melodic/lib/librosconsole.so
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/wukong/catkin_ws/devel/lib/parameter_test/parameter_config: /opt/ros/melodic/lib/librosconsole_backend_interface.so

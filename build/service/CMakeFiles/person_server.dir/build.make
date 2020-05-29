@@ -92,7 +92,6 @@ person_server_EXTERNAL_OBJECTS =
 /home/wukong/catkin_ws/devel/lib/service/person_server: service/CMakeFiles/person_server.dir/build.make
 /home/wukong/catkin_ws/devel/lib/service/person_server: /opt/ros/melodic/lib/libroscpp.so
 /home/wukong/catkin_ws/devel/lib/service/person_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/wukong/catkin_ws/devel/lib/service/person_server: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/wukong/catkin_ws/devel/lib/service/person_server: /opt/ros/melodic/lib/librosconsole.so
 /home/wukong/catkin_ws/devel/lib/service/person_server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/wukong/catkin_ws/devel/lib/service/person_server: /opt/ros/melodic/lib/librosconsole_backend_interface.so

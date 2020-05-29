@@ -131,10 +131,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wukong/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/wukong/catkin_ws/build/launchTest/cmake_install.cmake")
   include("/home/wukong/catkin_ws/build/parameter_test/cmake_install.cmake")
   include("/home/wukong/catkin_ws/build/TF_test/cmake_install.cmake")
   include("/home/wukong/catkin_ws/build/service/cmake_install.cmake")
   include("/home/wukong/catkin_ws/build/topic_tertule/cmake_install.cmake")
+  include("/home/wukong/catkin_ws/build/ASM2-2/cmake_install.cmake")
+  include("/home/wukong/catkin_ws/build/ASM3-1/cmake_install.cmake")
+  include("/home/wukong/catkin_ws/build/smartcar_description/cmake_install.cmake")
+  include("/home/wukong/catkin_ws/build/mrobot_description/cmake_install.cmake")
 
 endif()
 

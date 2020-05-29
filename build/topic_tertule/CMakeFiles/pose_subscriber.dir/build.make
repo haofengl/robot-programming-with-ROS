@@ -92,7 +92,6 @@ pose_subscriber_EXTERNAL_OBJECTS =
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: topic_tertule/CMakeFiles/pose_subscriber.dir/build.make
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /opt/ros/melodic/lib/libroscpp.so
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /opt/ros/melodic/lib/librosconsole.so
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/wukong/catkin_ws/devel/lib/topic_tertule/pose_subscriber: /opt/ros/melodic/lib/librosconsole_backend_interface.so

@@ -3,9 +3,6 @@
 
 TF_test/CMakeFiles/turtle_tf_listener.dir/src/turtle_tf_listener.cpp.o
  /home/wukong/catkin_ws/src/TF_test/src/turtle_tf_listener.cpp
- /opt/ros/melodic/include/boost_161_condition_variable.h
- /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
- /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Point32.h
  /opt/ros/melodic/include/geometry_msgs/PointStamped.h

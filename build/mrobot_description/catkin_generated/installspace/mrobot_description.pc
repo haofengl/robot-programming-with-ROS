@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/install
+
+Name: mrobot_description
+Description: Description of mrobot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

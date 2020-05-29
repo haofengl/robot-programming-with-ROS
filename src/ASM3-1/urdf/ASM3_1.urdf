@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ASM3_1">
+  <link
+    name="base">
+    <inertial>
+      <origin
+        xyz="2.53217572619465E-17 7.19066287409982E-17 -1.56894244258306E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.316845943723259" />
+      <inertia
+        ixx="0.000460961159222179"
+        ixy="1.87310703833902E-07"
+        ixz="-1.63450889040478E-21"
+        iyy="0.000241970700725281"
+        iyz="-6.97313256382202E-22"
+        izz="0.00064902737512961" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Empty_Link1">
+    <inertial>
+      <origin
+        xyz="0.0330000000000001 5.02346878692647E-05 -5.02346878692821E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.019731071348658" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.91599083472474E-08"
+        ixz="-2.91599083472413E-08"
+        iyy="9.77086440607925E-06"
+        iyz="-1.30180161071189E-19"
+        izz="9.77086440607927E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="-0.065506 0.12051 0"
+      rpy="0 0 2.0687" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link7">
+    <inertial>
+      <origin
+        xyz="0.047 -0.000657371115648682 6.38378239159465E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.073610808678494" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="3.01540051812553E-22"
+        ixz="-1.51376222312073E-08"
+        iyy="2.1644430327163E-05"
+        iyz="-1.92649880526353E-21"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link1" />
+    <child
+      link="Empty_Link7" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link13">
+    <inertial>
+      <origin
+        xyz="0.0104437249548174 0.0900463290285191 -4.99966688650849E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517554776167" />
+      <inertia
+        ixx="2.49437219866352E-05"
+        ixy="-7.4830927849995E-07"
+        ixz="-3.47413323034397E-12"
+        iyy="8.34117254759518E-06"
+        iyz="7.59739058156715E-12"
+        izz="2.10424480740808E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link13.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link13.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint13"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link7" />
+    <child
+      link="Empty_Link13" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link19">
+    <inertial>
+      <origin
+        xyz="-0.00100000000000219 -8.88178419700125E-16 -4.30211422042248E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="-3.83944564260796E-24"
+        ixz="-1.33530389399641E-23"
+        iyy="1.07233029242532E-09"
+        iyz="0"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link19.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link19.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint19"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link13" />
+    <child
+      link="Empty_Link19" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link2">
+    <inertial>
+      <origin
+        xyz="0.0330000000000001 5.02346878693141E-05 -5.02346878692717E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.019731071348658" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.91599083472463E-08"
+        ixz="-2.91599083472443E-08"
+        iyy="9.77086440607924E-06"
+        iyz="-1.24802315623297E-19"
+        izz="9.77086440607927E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="-0.116 0 0"
+      rpy="0 0 3.1416" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link8">
+    <inertial>
+      <origin
+        xyz="0.047 -0.000657512135363088 -2.25108720576216E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.073610808678494" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="3.63365746503473E-11"
+        ixz="7.09337312846388E-22"
+        iyy="2.1644430327163E-05"
+        iyz="1.40979867157513E-21"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link8.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link8.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint8"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link2" />
+    <child
+      link="Empty_Link8" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link14">
+    <inertial>
+      <origin
+        xyz="0.0104437249299811 0.0900463291127983 -4.99966505389266E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517560330798" />
+      <inertia
+        ixx="2.49437221252634E-05"
+        ixy="-7.48309280558836E-07"
+        ixz="-3.47651140862238E-12"
+        iyy="8.34117266397957E-06"
+        iyz="7.60273567428637E-12"
+        izz="2.10424480932041E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link14.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link14.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint14"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link8" />
+    <child
+      link="Empty_Link14" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link20">
+    <inertial>
+      <origin
+        xyz="-0.000999999999999959 0 -4.2128301715183E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="2.9763144516272E-26"
+        ixz="-1.30256059549097E-23"
+        iyy="1.07233029242532E-09"
+        iyz="-7.3468396926393E-40"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link20.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link20.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint20"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link14" />
+    <child
+      link="Empty_Link20" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link3">
+    <inertial>
+      <origin
+        xyz="0.0329999999999996 5.02346878681892E-05 -5.02346878692959E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.019731071348658" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.9159908347247E-08"
+        ixz="-2.91599083472473E-08"
+        iyy="9.77086440607925E-06"
+        iyz="-1.29185359919968E-19"
+        izz="9.77086440607923E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="-0.065506 -0.12051 0"
+      rpy="0 0 -2.0687" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link3" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link9">
+    <inertial>
+      <origin
+        xyz="0.047 -0.00065751213536341 2.25108720571243E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0736108086784938" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="-3.63365745960704E-11"
+        ixz="-8.470329472543E-22"
+        iyy="2.16444303271629E-05"
+        iyz="-1.06011078510782E-21"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link9.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link9.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint9"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link3" />
+    <child
+      link="Empty_Link9" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link15">
+    <inertial>
+      <origin
+        xyz="0.0104437249548176 0.0900463290285191 -4.99966688661396E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517554776167" />
+      <inertia
+        ixx="2.49437219866352E-05"
+        ixy="-7.48309278499956E-07"
+        ixz="-3.4741332261088E-12"
+        iyy="8.34117254759516E-06"
+        iyz="7.59739057923581E-12"
+        izz="2.10424480740808E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link15.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link15.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint15"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link9" />
+    <child
+      link="Empty_Link15" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link21">
+    <inertial>
+      <origin
+        xyz="-0.000999999999997878 8.88178419700125E-16 -3.71924713249427E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="3.89897193164052E-24"
+        ixz="-1.34572099457713E-23"
+        iyy="1.07233029242532E-09"
+        iyz="0"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link21.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link21.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint21"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link15" />
+    <child
+      link="Empty_Link21" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link4">
+    <inertial>
+      <origin
+        xyz="0.0329999999999999 5.0234687869341E-05 -5.02346878692959E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0197310713486579" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.91599083472453E-08"
+        ixz="-2.91599083472499E-08"
+        iyy="9.77086440607925E-06"
+        iyz="-1.25113901257504E-19"
+        izz="9.77086440607925E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0.065506 -0.12051 0"
+      rpy="0 0 -1.0729" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link4" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link10">
+    <inertial>
+      <origin
+        xyz="0.0469999999999999 -0.000657371115648678 9.99200722162641E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0736108086784939" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="4.29831577801032E-21"
+        ixz="-1.51376222311989E-08"
+        iyy="2.1644430327163E-05"
+        iyz="3.39961491649795E-19"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint10"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link4" />
+    <child
+      link="Empty_Link10" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link16">
+    <inertial>
+      <origin
+        xyz="0.0104437249548175 0.0900463290285193 -4.99966688610881E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517554776168" />
+      <inertia
+        ixx="2.49437219866352E-05"
+        ixy="-7.48309278499961E-07"
+        ixz="-3.47413325575496E-12"
+        iyy="8.3411725475952E-06"
+        iyz="7.59739009590167E-12"
+        izz="2.10424480740807E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link16.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link16.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint16"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link10" />
+    <child
+      link="Empty_Link16" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link22">
+    <inertial>
+      <origin
+        xyz="-0.00100000000000222 -8.32667268468867E-16 -1.66533453693773E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="-3.69062992002627E-24"
+        ixz="-1.33109788932657E-23"
+        iyy="1.07233029242532E-09"
+        iyz="0"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link22.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link22.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint22"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link16" />
+    <child
+      link="Empty_Link22" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link5">
+    <inertial>
+      <origin
+        xyz="0.033 5.02346878692878E-05 -5.02346878692647E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.019731071348658" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.91599083472408E-08"
+        ixz="-2.91599083472412E-08"
+        iyy="9.77086440607928E-06"
+        iyz="-1.24610724188817E-19"
+        izz="9.77086440607928E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0.116 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link5" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link11">
+    <inertial>
+      <origin
+        xyz="0.047 -0.000657512135363084 2.25108720578242E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0736108086784939" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="-3.63365746527715E-11"
+        ixz="-9.42809300705941E-22"
+        iyy="2.1644430327163E-05"
+        iyz="9.67215895748907E-22"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link11.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link11.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint11"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link5" />
+    <child
+      link="Empty_Link11" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link17">
+    <inertial>
+      <origin
+        xyz="0.0104437249299811 0.0900463291127983 -4.99966505388468E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517560330798" />
+      <inertia
+        ixx="2.49437221252633E-05"
+        ixy="-7.48309280558839E-07"
+        ixz="-3.47651140415571E-12"
+        iyy="8.34117266397957E-06"
+        iyz="7.60273566902555E-12"
+        izz="2.10424480932041E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link17.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link17.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint17"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link11" />
+    <child
+      link="Empty_Link17" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link23">
+    <inertial>
+      <origin
+        xyz="-0.00100000000000001 0 -1.6326458414373E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="-2.08342011614447E-25"
+        ixz="-1.27191132707583E-23"
+        iyy="1.07233029242532E-09"
+        iyz="4.40810381558358E-39"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link23.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link23.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint23"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link17" />
+    <child
+      link="Empty_Link23" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link6">
+    <inertial>
+      <origin
+        xyz="0.0330000000000002 5.02346878692439E-05 -5.02346878692751E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.019731071348658" />
+      <inertia
+        ixx="1.23734036568865E-05"
+        ixy="-2.91599083472406E-08"
+        ixz="-2.91599083472412E-08"
+        iyy="9.77086440607927E-06"
+        iyz="-1.26955649077921E-19"
+        izz="9.77086440607928E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0.065506 0.12051 0"
+      rpy="0 0 1.0729" />
+    <parent
+      link="base" />
+    <child
+      link="Empty_Link6" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.05"
+      upper="1.05"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link12">
+    <inertial>
+      <origin
+        xyz="0.047 -0.000657512135363081 2.25108720582901E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.073610808678494" />
+      <inertia
+        ixx="1.39088073615343E-05"
+        ixy="-3.63365746492413E-11"
+        ixz="-1.6940658945086E-21"
+        iyy="2.1644430327163E-05"
+        iyz="-1.33421052811753E-23"
+        izz="1.27657759015739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link12.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link12.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint12"
+    type="revolute">
+    <origin
+      xyz="0.066 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Empty_Link6" />
+    <child
+      link="Empty_Link12" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link18">
+    <inertial>
+      <origin
+        xyz="0.0104437249548173 0.0900463290285191 -4.99966688616016E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0425517554776167" />
+      <inertia
+        ixx="2.49437219866352E-05"
+        ixy="-7.48309278499937E-07"
+        ixz="-3.47413325829605E-12"
+        iyy="8.34117254759518E-06"
+        iyz="7.59739010101504E-12"
+        izz="2.10424480740808E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link18.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link18.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint18"
+    type="revolute">
+    <origin
+      xyz="0.094 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Empty_Link12" />
+    <child
+      link="Empty_Link18" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Empty_Link24">
+    <inertial>
+      <origin
+        xyz="-0.000999999999997933 8.32667268468867E-16 -2.22044604925031E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.000201061929829747" />
+      <inertia
+        ixx="1.60849543863798E-09"
+        ixy="3.69062992002614E-24"
+        ixz="-1.32444655379246E-23"
+        iyy="1.07233029242532E-09"
+        iyz="0"
+        izz="1.07233029242532E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link24.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ASM3_1/meshes/Empty_Link24.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint24"
+    type="revolute">
+    <origin
+      xyz="0.010229 0.14333 -5E-05"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Empty_Link18" />
+    <child
+      link="Empty_Link24" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

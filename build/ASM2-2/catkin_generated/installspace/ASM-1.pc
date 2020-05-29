@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/install
+
+Name: ASM-1
+Description: Description of ASM-1
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
