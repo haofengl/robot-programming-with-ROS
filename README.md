@@ -7,6 +7,13 @@
 * build - 编译过程中生成的文件
 * install - 开发过程中需要下载的文件
 
-## 目前该项目拥有以下功能
+## 目前该仓库拥有以下内容
+* 六足机器人仿真模型
+* service    ---服务通信机制
+* topic_turtle   ---话题通信机制测试
+* parameter_test  ---全局参数服务器测试
+* TF_test   ---tf坐标变化测试－基于小海龟追随
+* mrobot_description  ---圆形移动小车仿真模型－基于urdf、xacro语法编写
+* smartcar_description  ---方形移动小车仿真模型－基于urdf、xacro语法编写
 
 ### *欢迎联系本人-qq:2466913104*
