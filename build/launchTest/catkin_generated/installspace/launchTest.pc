@@ -1,4 +1,4 @@
-prefix=/home/wukong/catkin_ws/install
+prefix=/usr/local
 
 Name: launchTest
 Description: Description of launchTest

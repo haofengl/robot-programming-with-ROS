@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/devel
+
+Name: arbotix_firmware
+Description: Description of arbotix_firmware
+Version: 0.10.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

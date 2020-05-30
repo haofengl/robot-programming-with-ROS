@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/build/devel
+
+Name: smartcar_description
+Description: Description of smartcar_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

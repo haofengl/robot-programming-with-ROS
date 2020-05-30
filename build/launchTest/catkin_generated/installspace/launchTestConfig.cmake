@@ -68,13 +68,13 @@ set(launchTest_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(launchTest_SOURCE_PREFIX /home/wukong/catkin_ws/src/launchTest)
-  set(launchTest_DEVEL_PREFIX /home/wukong/catkin_ws/devel)
+  set(launchTest_DEVEL_PREFIX /home/wukong/catkin_ws/build/devel)
   set(launchTest_INSTALL_PREFIX "")
   set(launchTest_PREFIX ${launchTest_DEVEL_PREFIX})
 else()
   set(launchTest_SOURCE_PREFIX "")
   set(launchTest_DEVEL_PREFIX "")
-  set(launchTest_INSTALL_PREFIX /home/wukong/catkin_ws/install)
+  set(launchTest_INSTALL_PREFIX /usr/local)
   set(launchTest_PREFIX ${launchTest_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/wukong/catkin_ws/install/lib;/home/wukong/catkin_ws/devel/lib;/home/wukong/catkin_test/devel/lib;/home/wukong/ros_hexapod-master/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /usr/local/lib;/home/wukong/catkin_ws/devel/lib;/home/wukong/catkin_test/devel/lib;/home/wukong/ros_hexapod-master/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -53,3 +53,117 @@ Makefile:126: recipe for target 'cmTC_5e7aa/fast' failed
 make: *** [cmTC_5e7aa/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edadb/fast"
+make[1]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_edadb.dir/build.make CMakeFiles/cmTC_edadb.dir/build
+make[2]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_edadb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_edadb.dir/CheckSymbolExists.c.o   -c /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_edadb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edadb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_edadb.dir/CheckSymbolExists.c.o  -o cmTC_edadb 
+CMakeFiles/cmTC_edadb.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_edadb.dir/build.make:97: recipe for target 'cmTC_edadb' failed
+make[2]: *** [cmTC_edadb] Error 1
+make[2]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_edadb/fast' failed
+make[1]: *** [cmTC_edadb/fast] Error 2
+make[1]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+
+File /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c193/fast"
+make[1]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_0c193.dir/build.make CMakeFiles/cmTC_0c193.dir/build
+make[2]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0c193.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0c193.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c193.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0c193.dir/CheckFunctionExists.c.o  -o cmTC_0c193 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0c193.dir/build.make:97: recipe for target 'cmTC_0c193' failed
+make[2]: *** [cmTC_0c193] Error 1
+make[2]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_0c193/fast' failed
+make[1]: *** [cmTC_0c193/fast] Error 2
+make[1]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d39b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d39b0.dir/build.make CMakeFiles/cmTC_d39b0.dir/build
+make[1]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d39b0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d39b0.dir/CheckSymbolExists.c.o   -c /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d39b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d39b0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d39b0.dir/CheckSymbolExists.c.o  -o cmTC_d39b0 
+CMakeFiles/cmTC_d39b0.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d39b0.dir/build.make:97: recipe for target 'cmTC_d39b0' failed
+make[1]: *** [cmTC_d39b0] Error 1
+make[1]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_d39b0/fast' failed
+make: *** [cmTC_d39b0/fast] Error 2
+
+File /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c40e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c40e.dir/build.make CMakeFiles/cmTC_7c40e.dir/build
+make[1]: 进入目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7c40e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7c40e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c40e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c40e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7c40e.dir/CheckFunctionExists.c.o  -o cmTC_7c40e -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7c40e.dir/build.make:97: recipe for target 'cmTC_7c40e' failed
+make[1]: *** [cmTC_7c40e] Error 1
+make[1]: 离开目录“/home/wukong/catkin_ws/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_7c40e/fast' failed
+make: *** [cmTC_7c40e/fast] Error 2
+
+

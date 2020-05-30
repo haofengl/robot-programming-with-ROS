@@ -308,6 +308,42 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
+//Value Computed by CMake
+arbotix_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_controllers_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_controllers_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_firmware_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_firmware_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_msgs_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_msgs_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_python_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_python_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_sensors_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
+arbotix_sensors_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_sensors
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
@@ -386,18 +422,6 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
-
-//Value Computed by CMake
-launchTest_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/launchTest
-
-//Value Computed by CMake
-launchTest_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/launchTest
-
-//Value Computed by CMake
-launch_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/launch
-
-//Value Computed by CMake
-launch_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/launch
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
@@ -626,7 +650,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
