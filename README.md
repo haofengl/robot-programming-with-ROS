@@ -16,4 +16,4 @@
 * mrobot_description  ---圆形移动小车仿真模型－基于urdf、xacro语法编写
 * smartcar_description  ---方形移动小车仿真模型－基于urdf、xacro语法编写
 * mrobot_teleop            ---圆形移动小车键盘控制
-### *欢迎联系本人-qq:2466913104*
+### *欢迎交流O-qq:2466913104*
