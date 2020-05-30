@@ -1,8 +1,0 @@
-prefix=/home/wukong/catkin_ws/devel
-
-Name: launchTest
-Description: Description of launchTest
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

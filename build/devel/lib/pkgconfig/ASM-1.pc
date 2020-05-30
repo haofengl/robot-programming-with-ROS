@@ -1,8 +1,0 @@
-prefix=/home/wukong/catkin_ws/build/devel
-
-Name: ASM-1
-Description: Description of ASM-1
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

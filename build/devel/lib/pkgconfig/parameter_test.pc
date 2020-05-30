@@ -1,8 +1,0 @@
-prefix=/home/wukong/catkin_ws/build/devel
-
-Name: parameter_test
-Description: Description of parameter_test
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

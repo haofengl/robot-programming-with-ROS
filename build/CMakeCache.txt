@@ -442,6 +442,12 @@ mrobot_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/mrobot_descrip
 mrobot_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/mrobot_description
 
 //Value Computed by CMake
+mrobot_teleop_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/mrobot_teleop
+
+//Value Computed by CMake
+mrobot_teleop_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/mrobot_teleop
+
+//Value Computed by CMake
 parameter_test_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/parameter_test
 
 //Value Computed by CMake
@@ -650,7 +656,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
