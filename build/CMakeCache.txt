@@ -308,6 +308,9 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for angles.
+angles_DIR:PATH=/opt/ros/melodic/share/angles/cmake
+
 //Value Computed by CMake
 arbotix_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbotix
 
@@ -344,14 +347,59 @@ arbotix_sensors_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/arbotix_ros/arbot
 //Value Computed by CMake
 arbotix_sensors_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/arbotix_ros/arbotix_sensors
 
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/melodic/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/melodic/share/bondcpp/cmake
+
+//The directory containing a CMake configuration file for camera_calibration_parsers.
+camera_calibration_parsers_DIR:PATH=/opt/ros/melodic/share/camera_calibration_parsers/cmake
+
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/melodic/share/camera_info_manager/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 
+//The directory containing a CMake configuration file for control_msgs.
+control_msgs_DIR:PATH=/opt/ros/melodic/share/control_msgs/cmake
+
+//The directory containing a CMake configuration file for control_toolbox.
+control_toolbox_DIR:PATH=/opt/ros/melodic/share/control_toolbox/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/melodic/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for controller_manager.
+controller_manager_DIR:PATH=/opt/ros/melodic/share/controller_manager/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/melodic/share/controller_manager_msgs/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/melodic/share/cv_bridge/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
+
+//The directory containing a CMake configuration file for gazebo_msgs.
+gazebo_msgs_DIR:PATH=/opt/ros/melodic/share/gazebo_msgs/cmake
+
+//The directory containing a CMake configuration file for gazebo_plugins.
+gazebo_plugins_DIR:PATH=/opt/ros/melodic/share/gazebo_plugins/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros.
+gazebo_ros_DIR:PATH=/opt/ros/melodic/share/gazebo_ros/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros_control.
+gazebo_ros_control_DIR:PATH=/opt/ros/melodic/share/gazebo_ros_control/cmake
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
@@ -423,8 +471,23 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/melodic/share/hardware_interface/cmake
+
+//Value Computed by CMake
+hexapod_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/hexapod_description
+
+//Value Computed by CMake
+hexapod_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/hexapod_description
+
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
+
+//The directory containing a CMake configuration file for joint_limits_interface.
+joint_limits_interface_DIR:PATH=/opt/ros/melodic/share/joint_limits_interface/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -442,10 +505,22 @@ mrobot_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/mrobot_descrip
 mrobot_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/mrobot_description
 
 //Value Computed by CMake
+mrobot_gazebo_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/mrobot_gazebo
+
+//Value Computed by CMake
+mrobot_gazebo_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/mrobot_gazebo
+
+//Value Computed by CMake
 mrobot_teleop_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/mrobot_teleop
 
 //Value Computed by CMake
 mrobot_teleop_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/mrobot_teleop
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
 
 //Value Computed by CMake
 parameter_test_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/parameter_test
@@ -455,6 +530,15 @@ parameter_test_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/parameter_test
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for realtime_tools.
+realtime_tools_DIR:PATH=/opt/ros/melodic/share/realtime_tools/cmake
+
+//Value Computed by CMake
+robot_vision_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/robot_vision
+
+//Value Computed by CMake
+robot_vision_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/robot_vision
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -507,6 +591,9 @@ smartcar_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/smartcar_des
 //Value Computed by CMake
 smartcar_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/smartcar_description
 
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/melodic/share/smclib/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
@@ -533,6 +620,12 @@ topic_tertule_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/topic_tertule
 
 //Value Computed by CMake
 topic_tertule_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/topic_tertule
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for transmission_interface.
+transmission_interface_DIR:PATH=/opt/ros/melodic/share/transmission_interface/cmake
 
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/melodic/share/turtlesim/cmake
@@ -656,7 +749,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

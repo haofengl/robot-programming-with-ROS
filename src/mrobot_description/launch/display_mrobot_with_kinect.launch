@@ -1,4 +1,3 @@
-
 <launch>
 
 	<arg name="model" default="$(find xacro)/xacro --inorder '$(find mrobot_description)/urdf/mrobot_with_kinect.urdf.xacro'" />
