@@ -487,7 +487,7 @@ image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 joint_limits_interface_DIR:PATH=/opt/ros/melodic/share/joint_limits_interface/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
+lib:FILEPATH=/opt/ros/melodic/lib/librosconsole_bridge.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -531,6 +531,24 @@ parameter_test_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/parameter_test
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
 
+//Value Computed by CMake
+probot_anno_moveit_config_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/probot_anno_moveit_config
+
+//Value Computed by CMake
+probot_anno_moveit_config_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/probot_anno_moveit_config
+
+//Value Computed by CMake
+probot_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/probot_description
+
+//Value Computed by CMake
+probot_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/probot_description
+
+//Value Computed by CMake
+probot_gazebo_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/probot_gazebo
+
+//Value Computed by CMake
+probot_gazebo_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/probot_gazebo
+
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/melodic/share/realtime_tools/cmake
 
@@ -539,6 +557,12 @@ robot_vision_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/robot_vision
 
 //Value Computed by CMake
 robot_vision_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/robot_vision
+
+//Value Computed by CMake
+robot_voice_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/robot_voice
+
+//Value Computed by CMake
+robot_voice_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/robot_voice
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -629,6 +653,12 @@ transmission_interface_DIR:PATH=/opt/ros/melodic/share/transmission_interface/cm
 
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/melodic/share/turtlesim/cmake
+
+//Value Computed by CMake
+ur3_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/ur3
+
+//Value Computed by CMake
+ur3_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/ur3
 
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
@@ -749,7 +779,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

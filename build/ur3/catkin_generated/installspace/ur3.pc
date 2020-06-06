@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/install
+
+Name: ur3
+Description: Description of ur3
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

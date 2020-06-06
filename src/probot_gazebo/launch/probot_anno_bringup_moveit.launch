@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find probot_gazebo)/launch/probot_anno_gazebo_world.launch" />
+    <include file="$(find probot_gazebo)/launch/probot_anno_gazebo_states.launch" />
+    <include file="$(find probot_gazebo)/launch/probot_anno_trajectory_controller.launch" />
+    <include file="$(find probot_anno_moveit_config)/launch/moveit_planning_execution.launch" />
+</launch>
