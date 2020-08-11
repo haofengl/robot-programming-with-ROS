@@ -15,7 +15,15 @@
 * TF_test                   ---tf坐标变化测试－基于小海龟追随
 * robot_vision              ---机器人感知之机器视觉
 * robot_voice               ---机器人感知之机器语音
-
+---
+* example_ros_class           ---基于C++创建ROS类
+* creating_a_ros_library      ---基于C++创建ROS模板库
+* custom_msgs                 ---自定义变长消息功能包(可被其他功能包直接使用)
+* example_action_server       ---action通信模式
+* example_ros_msg             ---自定义消息功能包 及话题通信实现
+* example_ros_service         ---自定义消息功能包 及服务通信实现
+* my_minimal_nodes            ---自定义仿真器和控制器 基于话题通信的综合实现
+---
 * mrobot_description      　---圆形移动小车底盘模型描述(rviz仿真)
 * mrobot_gazebo             ---圆形移动小车底盘模型gazebo仿真
 * mrobot_teleop             ---圆形移动小车底盘模型键盘控制包
