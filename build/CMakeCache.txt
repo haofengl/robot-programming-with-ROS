@@ -480,6 +480,12 @@ hexapod_description_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/hexapod_descr
 //Value Computed by CMake
 hexapod_description_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/hexapod_description
 
+//Value Computed by CMake
+hexapod_sim_BINARY_DIR:STATIC=/home/wukong/catkin_ws/build/hexapod_sim
+
+//Value Computed by CMake
+hexapod_sim_SOURCE_DIR:STATIC=/home/wukong/catkin_ws/src/hexapod_sim
+
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 
@@ -779,7 +785,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,3 +1,4 @@
+set(arbotix_python_SETUP_PY_SETUP_MODULE "distutils.core")
 set(arbotix_python_SETUP_PY_VERSION "0.10.0")
 set(arbotix_python_SETUP_PY_SCRIPTS "bin/arbotix_gui;bin/arbotix_terminal")
 set(arbotix_python_SETUP_PY_PACKAGES "arbotix_python")

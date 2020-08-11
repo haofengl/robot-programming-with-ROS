@@ -26,6 +26,7 @@ echo_and_run /usr/bin/env \
     CATKIN_BINARY_DIR="/home/wukong/catkin_ws/build" \
     "/usr/bin/python2" \
     "/home/wukong/catkin_ws/src/arbotix_ros/arbotix_python/setup.py" \
+     \
     build --build-base "/home/wukong/catkin_ws/build/arbotix_ros/arbotix_python" \
     install \
     --root="${DESTDIR-/}" \

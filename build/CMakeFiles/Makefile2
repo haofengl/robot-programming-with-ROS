@@ -1327,6 +1327,24 @@ clean: arbotix_ros/arbotix_msgs/CMakeFiles/arbotix_msgs_generate_messages_eus.di
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory hexapod_sim
+
+# Convenience name for "all" pass in the directory.
+hexapod_sim/all:
+
+.PHONY : hexapod_sim/all
+
+# Convenience name for "clean" pass in the directory.
+hexapod_sim/clean:
+
+.PHONY : hexapod_sim/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hexapod_sim/preinstall:
+
+.PHONY : hexapod_sim/preinstall
+
+#=============================================================================
 # Directory level rules for directory mrobot_teleop
 
 # Convenience name for "all" pass in the directory.
@@ -4360,6 +4378,24 @@ ur3/clean:
 ur3/preinstall:
 
 .PHONY : ur3/preinstall
+
+#=============================================================================
+# Directory level rules for directory hexapod_description
+
+# Convenience name for "all" pass in the directory.
+hexapod_description/all:
+
+.PHONY : hexapod_description/all
+
+# Convenience name for "clean" pass in the directory.
+hexapod_description/clean:
+
+.PHONY : hexapod_description/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hexapod_description/preinstall:
+
+.PHONY : hexapod_description/preinstall
 
 #=============================================================================
 # Directory level rules for directory ASM3-1

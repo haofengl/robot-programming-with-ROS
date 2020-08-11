@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/install
+
+Name: hexapod_description
+Description: Description of hexapod_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
