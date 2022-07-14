@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/install
+
+Name: example_ros_class
+Description: Description of example_ros_class
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

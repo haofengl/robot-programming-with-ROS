@@ -1,0 +1,8 @@
+prefix=/home/wukong/catkin_ws/devel
+
+Name: creating_a_ros_library
+Description: Description of creating_a_ros_library
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/wukong/catkin_ws/build"
+export PATH='/home/wukong/catkin_ws/devel/bin:/opt/ros/melodic/bin:/home/wukong/anaconda3/condabin:/home/wukong/.local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PWD='/home/wukong/catkin_ws/build'
